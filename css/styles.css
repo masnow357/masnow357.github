@@ -1,0 +1,123 @@
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption{
+  background: rgba(0, 47, 255, 0.164);
+  height: 100vh;
+  width: 100vW;
+  font-family: 'Merienda', cursive;
+  display: grid !important;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  left: 0;
+  bottom: 0;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1.9;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+.carousel-caption a{
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 20px;
+  display: inline-block !important;
+  color: #fff;
+  margin-top: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.carousel-caption a:hover{
+  background: #2626269d;
+}
+
+.navbar-nav a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navbar .container .navbar-brand{
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .container .navbar-brand:hover{
+  color: black;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.nav-link{
+  padding: .2rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(0, 0, 0) !important;
+}
+
+.carousel .carousel-inner .carousel-item .w-100{
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .navbar-nav.ml-auto{
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar .container .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+
+  .carousel-caption h5{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+  }
+  
+  .carousel-caption p{
+    width: 50%;
+    font-size: 17px;
+  }
+  
+  .carousel-caption a{
+    padding: 7px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+  }
+}
